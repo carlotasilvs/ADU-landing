@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <title>ADU</title>
+</head>
+<body>
+    <div class="grid-container">
+        <div id="grid-child left">
+            <h1>Supermarket assistant <br> with Down syndrome</h1>
+            <div class="paragraphs">
+                <h2 class="title">About</h2>
+                <p id="name" class="changeMe name text-primary text-center">Luis	 has	 Down	 syndrome	 and	 has	 difficulty	 with	abstract	concepts,	 reading,	and	math.	Luis	works	at	a	market,	bagging	groceries	 for	customers.</p>
+            </div>
+            <div class="paragraphs">
+                <h2 class="title">Difficulties</h2>
+                <p id="name" class="changeMe name text-primary text-center">He	buys	 his	groceries	at	 the	 same	market	where	 he	works,	but	he	is	sometimes	confused	by	the large	number	of	product	choices.	He	also	has	problems	finding	 his	 favorite	 items	 when	 the	 store	 layout	changes.</p>
+            </div>
+            <div class="paragraphs">
+                <h2 class="title">Solutions found</h2>
+                <p id="name" class="changeMe name text-primary text-center">Recently,	 a	 friend	 showed	 him	 an	 app	
+                    for	 online	 shopping	 that	 has	 consistent,	 easy-touse	 navigation	with	 clear	and	 direct	instructions.	
+                    Luis	is	able	 to	add	 the	list	of	his	most	 frequently	
+                    purchased	 items	 into	 the	 app	 and	 save	 it	 for	
+                    future	purchases.	He	likes	the	search	functionality	
+                    that	makes	 suggestions	 for	mistyped	 words.	 The	
+                    app	 keeps	 a	 running	 total	 of	 the	 items	 in	 his	
+                    shopping	cart	which	helps	him	keep	up	with	how	
+                    much	 he	 is	 spending.	 His	 friend	 showed	 him	
+                    several	 accessibility	 features	 in	 his	 smartphone,	
+                    including	word	prediction	and	 the	 text-to-speech	
+                    functionality	which	allows	him	to	listen	to	reviews	
+                    posted	 by	 other	 users	 on	 the	grocery	app.	Using	
+                    these	 tools,	 Luis	 has	 begun	 posting	 his	 reviews	
+                    online.	 Now	 he	 uses	 the	 shopping	 app	 for	
+                    frequently	purchased	items	and	buys	a	 few	 fresh	
+                    items	from	the	store	where	he	works.	</p>
+            </div>
+        </div>  
+        <div id="grid-child right">
+            <div id="left-inputs">
+                <div class="container">
+                    <p>Adjust text size</p>
+                    <input class="none" type="range" min="20" max="50" value="0" id="slider" step="1">              
+                </div>
+                <button id="myBtn" type="button" onclick="javascript:alert('Hello World!')">Read aloud</button>
+            </div>
+            <img src="./img/Persona.png">
+        </div>
+    </div>
+    <script src="button.js"></script>
+    <script src="slider.js"></script>
+</body>
+</html>
